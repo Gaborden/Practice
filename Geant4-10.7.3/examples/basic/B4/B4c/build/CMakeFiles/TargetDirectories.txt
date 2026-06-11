@@ -1,0 +1,7 @@
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/install/strip.dir
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/install/local.dir
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/install.dir
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/list_install_components.dir
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/rebuild_cache.dir
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/edit_cache.dir
+/home/genevieve/Geant4-10.7.3/examples/basic/B4/B4c/build/CMakeFiles/exampleB4c.dir

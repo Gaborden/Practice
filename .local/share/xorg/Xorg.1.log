@@ -1,0 +1,1244 @@
+[485115.666] _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+[485115.666] _XSERVTransMakeAllCOTSServerListeners: server already running
+[485115.666] (--) Log file renamed from "/home/genevieve/.local/share/xorg/Xorg.pid-111771.log" to "/home/genevieve/.local/share/xorg/Xorg.1.log"
+[485115.667] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[485115.667] Build Operating System: linux Ubuntu
+[485115.667] Current Operating System: Linux thanos 5.15.0-138-generic #148~20.04.1-Ubuntu SMP Fri Mar 28 14:32:35 UTC 2025 x86_64
+[485115.667] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-138-generic root=UUID=0ea43b2f-59e6-4cbe-87e7-3e534ed0a210 ro quiet splash vt.handoff=7
+[485115.667] Build Date: 19 February 2025  01:54:27PM
+[485115.667] xorg-server 2:1.20.13-1ubuntu1~20.04.19 (For technical support please see http://www.ubuntu.com/support) 
+[485115.667] Current version of pixman: 0.38.4
+[485115.667] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[485115.667] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[485115.667] (==) Log file: "/home/genevieve/.local/share/xorg/Xorg.1.log", Time: Wed May  7 08:34:55 2025
+[485115.667] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[485115.667] (==) No Layout section.  Using the first Screen section.
+[485115.667] (==) No screen section available. Using defaults.
+[485115.667] (**) |-->Screen "Default Screen Section" (0)
+[485115.667] (**) |   |-->Monitor "<default monitor>"
+[485115.667] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[485115.667] (==) Automatically adding devices
+[485115.667] (==) Automatically enabling devices
+[485115.667] (==) Automatically adding GPU devices
+[485115.667] (==) Automatically binding GPU devices
+[485115.667] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[485115.667] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[485115.667] 	Entry deleted from font path.
+[485115.667] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[485115.667] 	Entry deleted from font path.
+[485115.667] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[485115.667] 	Entry deleted from font path.
+[485115.667] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[485115.667] 	Entry deleted from font path.
+[485115.667] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[485115.667] 	Entry deleted from font path.
+[485115.667] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[485115.667] (==) ModulePath set to "/usr/lib/xorg/modules"
+[485115.667] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[485115.667] (II) Loader magic: 0x561345230020
+[485115.667] (II) Module ABI versions:
+[485115.667] 	X.Org ANSI C Emulation: 0.4
+[485115.667] 	X.Org Video Driver: 24.1
+[485115.667] 	X.Org XInput driver : 24.1
+[485115.667] 	X.Org Server Extension : 10.0
+[485115.668] (++) using VT number 3
+
+[485115.669] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_3294
+[485115.670] (II) xfree86: Adding drm device (/dev/dri/card0)
+[485115.671] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[485115.677] (--) PCI:*(9@0:0:0) 1002:67df:1849:5001 rev 231, Mem @ 0xe0000000/268435456, 0xf0000000/2097152, 0xfce00000/262144, I/O @ 0x0000e000/256, BIOS @ 0x????????/131072
+[485115.677] (II) LoadModule: "glx"
+[485115.677] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[485115.678] (II) Module glx: vendor="X.Org Foundation"
+[485115.678] 	compiled for 1.20.13, module version = 1.0.0
+[485115.678] 	ABI class: X.Org Server Extension, version 10.0
+[485115.678] (II) Applying OutputClass "AMDgpu" to /dev/dri/card0
+[485115.678] 	loading driver: amdgpu
+[485115.678] (==) Matched amdgpu as autoconfigured driver 0
+[485115.678] (==) Matched ati as autoconfigured driver 1
+[485115.678] (==) Matched modesetting as autoconfigured driver 2
+[485115.678] (==) Matched fbdev as autoconfigured driver 3
+[485115.678] (==) Matched vesa as autoconfigured driver 4
+[485115.678] (==) Assigned the driver to the xf86ConfigLayout
+[485115.678] (II) LoadModule: "amdgpu"
+[485115.678] (II) Loading /usr/lib/xorg/modules/drivers/amdgpu_drv.so
+[485115.679] (II) Module amdgpu: vendor="X.Org Foundation"
+[485115.679] 	compiled for 1.20.13, module version = 19.1.0
+[485115.679] 	Module class: X.Org Video Driver
+[485115.679] 	ABI class: X.Org Video Driver, version 24.1
+[485115.679] (II) LoadModule: "ati"
+[485115.679] (II) Loading /usr/lib/xorg/modules/drivers/ati_drv.so
+[485115.679] (II) Module ati: vendor="X.Org Foundation"
+[485115.679] 	compiled for 1.20.5, module version = 19.1.0
+[485115.679] 	Module class: X.Org Video Driver
+[485115.679] 	ABI class: X.Org Video Driver, version 24.0
+[485115.684] (II) LoadModule: "modesetting"
+[485115.684] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[485115.684] (II) Module modesetting: vendor="X.Org Foundation"
+[485115.684] 	compiled for 1.20.13, module version = 1.20.13
+[485115.684] 	Module class: X.Org Video Driver
+[485115.684] 	ABI class: X.Org Video Driver, version 24.1
+[485115.684] (II) LoadModule: "fbdev"
+[485115.685] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[485115.685] (II) Module fbdev: vendor="X.Org Foundation"
+[485115.685] 	compiled for 1.20.1, module version = 0.5.0
+[485115.685] 	Module class: X.Org Video Driver
+[485115.685] 	ABI class: X.Org Video Driver, version 24.0
+[485115.685] (II) LoadModule: "vesa"
+[485115.685] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[485115.685] (II) Module vesa: vendor="X.Org Foundation"
+[485115.685] 	compiled for 1.20.4, module version = 2.4.0
+[485115.685] 	Module class: X.Org Video Driver
+[485115.685] 	ABI class: X.Org Video Driver, version 24.0
+[485115.685] (II) AMDGPU: Driver for AMD Radeon:
+	All GPUs supported by the amdgpu kernel driver
+[485115.685] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[485115.685] (II) FBDEV: driver for framebuffer: fbdev
+[485115.685] (II) VESA: driver for VESA chipsets: vesa
+[485115.685] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[485115.685] (WW) Falling back to old probe method for modesetting
+[485115.688] (WW) Falling back to old probe method for fbdev
+[485115.688] (II) Loading sub module "fbdevhw"
+[485115.688] (II) LoadModule: "fbdevhw"
+[485115.689] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[485115.689] (II) Module fbdevhw: vendor="X.Org Foundation"
+[485115.689] 	compiled for 1.20.13, module version = 0.0.2
+[485115.689] 	ABI class: X.Org Video Driver, version 24.1
+[485115.689] (EE) open /dev/fb0: Permission denied
+[485115.689] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[485115.689] (II) AMDGPU(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[485115.689] (==) AMDGPU(0): Depth 24, (--) framebuffer bpp 32
+[485115.689] (II) AMDGPU(0): Pixel depth = 24 bits stored in 4 bytes (32 bpp pixmaps)
+[485115.689] (==) AMDGPU(0): Default visual is TrueColor
+[485115.689] (==) AMDGPU(0): RGB weight 888
+[485115.689] (II) AMDGPU(0): Using 8 bits per RGB (8 bit DAC)
+[485115.689] (--) AMDGPU(0): Chipset: "Radeon RX 580 Series" (ChipID = 0x67df)
+[485115.689] (II) Loading sub module "fb"
+[485115.689] (II) LoadModule: "fb"
+[485115.689] (II) Loading /usr/lib/xorg/modules/libfb.so
+[485115.689] (II) Module fb: vendor="X.Org Foundation"
+[485115.689] 	compiled for 1.20.13, module version = 1.0.0
+[485115.689] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[485115.689] (II) Loading sub module "dri2"
+[485115.689] (II) LoadModule: "dri2"
+[485115.689] (II) Module "dri2" already built-in
+[485115.709] (II) Loading sub module "glamoregl"
+[485115.709] (II) LoadModule: "glamoregl"
+[485115.709] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[485115.712] (II) Module glamoregl: vendor="X.Org Foundation"
+[485115.712] 	compiled for 1.20.13, module version = 1.0.1
+[485115.712] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[485115.720] (II) AMDGPU(0): glamor X acceleration enabled on Radeon RX 580 Series (POLARIS10, DRM 3.42.0, 5.15.0-138-generic, LLVM 12.0.0)
+[485115.720] (II) AMDGPU(0): glamor detected, initialising EGL layer.
+[485115.720] (==) AMDGPU(0): TearFree property default: auto
+[485115.720] (==) AMDGPU(0): VariableRefresh: disabled
+[485115.720] (II) AMDGPU(0): KMS Pageflipping: enabled
+[485115.720] (II) AMDGPU(0): Output DisplayPort-0 has no monitor section
+[485115.720] (II) AMDGPU(0): Output DisplayPort-1 has no monitor section
+[485115.720] (II) AMDGPU(0): Output DisplayPort-2 has no monitor section
+[485115.721] (II) AMDGPU(0): Output HDMI-A-0 has no monitor section
+[485115.721] (II) AMDGPU(0): Output DVI-D-0 has no monitor section
+[485115.737] (II) AMDGPU(0): EDID for output DisplayPort-0
+[485115.737] (II) AMDGPU(0): EDID for output DisplayPort-1
+[485115.737] (II) AMDGPU(0): EDID for output DisplayPort-2
+[485115.738] (II) AMDGPU(0): EDID for output HDMI-A-0
+[485115.738] (II) AMDGPU(0): Manufacturer: GSM  Model: 5b55  Serial#: 16843009
+[485115.738] (II) AMDGPU(0): Year: 2016  Week: 1
+[485115.738] (II) AMDGPU(0): EDID Version: 1.3
+[485115.738] (II) AMDGPU(0): Digital Display Input
+[485115.738] (II) AMDGPU(0): Max Image Size [cm]: horiz.: 48  vert.: 27
+[485115.738] (II) AMDGPU(0): Gamma: 2.20
+[485115.738] (II) AMDGPU(0): DPMS capabilities: StandBy Suspend Off
+[485115.738] (II) AMDGPU(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[485115.738] (II) AMDGPU(0): First detailed timing is preferred mode
+[485115.738] (II) AMDGPU(0): redX: 0.645 redY: 0.335   greenX: 0.305 greenY: 0.630
+[485115.738] (II) AMDGPU(0): blueX: 0.148 blueY: 0.050   whiteX: 0.313 whiteY: 0.329
+[485115.738] (II) AMDGPU(0): Supported established timings:
+[485115.738] (II) AMDGPU(0): 720x400@70Hz
+[485115.738] (II) AMDGPU(0): 640x480@60Hz
+[485115.738] (II) AMDGPU(0): 640x480@75Hz
+[485115.738] (II) AMDGPU(0): 800x600@60Hz
+[485115.738] (II) AMDGPU(0): 800x600@75Hz
+[485115.738] (II) AMDGPU(0): 1024x768@60Hz
+[485115.738] (II) AMDGPU(0): 1024x768@75Hz
+[485115.738] (II) AMDGPU(0): 1280x1024@75Hz
+[485115.738] (II) AMDGPU(0): Manufacturer's mask: 0
+[485115.738] (II) AMDGPU(0): Supported standard timings:
+[485115.738] (II) AMDGPU(0): #0: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+[485115.738] (II) AMDGPU(0): #1: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[485115.738] (II) AMDGPU(0): #2: hsize: 1440  vsize 900  refresh: 60  vid: 149
+[485115.738] (II) AMDGPU(0): #3: hsize: 1680  vsize 1050  refresh: 60  vid: 179
+[485115.738] (II) AMDGPU(0): #4: hsize: 1600  vsize 900  refresh: 60  vid: 49321
+[485115.738] (II) AMDGPU(0): #5: hsize: 1280  vsize 800  refresh: 60  vid: 129
+[485115.738] (II) AMDGPU(0): #6: hsize: 1280  vsize 720  refresh: 60  vid: 49281
+[485115.738] (II) AMDGPU(0): #7: hsize: 1400  vsize 1050  refresh: 60  vid: 16528
+[485115.738] (II) AMDGPU(0): Supported detailed timing:
+[485115.738] (II) AMDGPU(0): clock: 148.5 MHz   Image Size:  480 x 270 mm
+[485115.738] (II) AMDGPU(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[485115.738] (II) AMDGPU(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[485115.738] (II) AMDGPU(0): Ranges: V min: 56 V max: 75 Hz, H min: 30 H max: 85 kHz, PixClock max 185 MHz
+[485115.738] (II) AMDGPU(0): Monitor name: LG FULL HD
+[485115.738] (II) AMDGPU(0): Serial No: 
+[485115.738] (II) AMDGPU(0): Supported detailed timing:
+[485115.738] (II) AMDGPU(0): clock: 148.5 MHz   Image Size:  480 x 270 mm
+[485115.738] (II) AMDGPU(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[485115.738] (II) AMDGPU(0): v_active: 1080  v_sync: 1084  v_sync_end 1089 v_blanking: 1125 v_border: 0
+[485115.738] (II) AMDGPU(0): Supported detailed timing:
+[485115.738] (II) AMDGPU(0): clock: 174.5 MHz   Image Size:  480 x 270 mm
+[485115.738] (II) AMDGPU(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2080 h_border: 0
+[485115.738] (II) AMDGPU(0): v_active: 1080  v_sync: 1083  v_sync_end 1088 v_blanking: 1119 v_border: 0
+[485115.739] (II) AMDGPU(0): Supported detailed timing:
+[485115.739] (II) AMDGPU(0): clock: 74.2 MHz   Image Size:  480 x 270 mm
+[485115.739] (II) AMDGPU(0): h_active: 1280  h_sync: 1390  h_sync_end 1430 h_blank_end 1650 h_border: 0
+[485115.739] (II) AMDGPU(0): v_active: 720  v_sync: 725  v_sync_end 730 v_blanking: 750 v_border: 0
+[485115.739] (II) AMDGPU(0): Supported detailed timing:
+[485115.739] (II) AMDGPU(0): clock: 27.0 MHz   Image Size:  480 x 270 mm
+[485115.739] (II) AMDGPU(0): h_active: 720  h_sync: 736  h_sync_end 798 h_blank_end 858 h_border: 0
+[485115.739] (II) AMDGPU(0): v_active: 480  v_sync: 489  v_sync_end 495 v_blanking: 525 v_border: 0
+[485115.739] (II) AMDGPU(0): Number of EDID sections to follow: 1
+[485115.739] (II) AMDGPU(0): EDID (in hex):
+[485115.739] (II) AMDGPU(0): 	00ffffffffffff001e6d555b01010101
+[485115.739] (II) AMDGPU(0): 	011a010380301b78ea3135a5554ea126
+[485115.739] (II) AMDGPU(0): 	0c5054a54b00714f81809500b300a9c0
+[485115.739] (II) AMDGPU(0): 	810081c09040023a801871382d40582c
+[485115.739] (II) AMDGPU(0): 	4500e00e1100001e000000fd00384b1e
+[485115.739] (II) AMDGPU(0): 	5512000a202020202020000000fc004c
+[485115.739] (II) AMDGPU(0): 	472046554c4c2048440a2020000000ff
+[485115.739] (II) AMDGPU(0): 	000a2020202020202020202020200161
+[485115.739] (II) AMDGPU(0): 	02031bf14890040301121f1013230907
+[485115.739] (II) AMDGPU(0): 	078301000065030c001000023a801871
+[485115.739] (II) AMDGPU(0): 	382d40582c4500e00e1100001e2a4480
+[485115.739] (II) AMDGPU(0): 	a07038274030203500e00e1100001e01
+[485115.739] (II) AMDGPU(0): 	1d007251d01e206e285500e00e110000
+[485115.739] (II) AMDGPU(0): 	1e8c0ad08a20e02d10103e9600e00e11
+[485115.739] (II) AMDGPU(0): 	00001800000000000000000000000000
+[485115.739] (II) AMDGPU(0): 	0000000000000000000000000000004b
+[485115.739] (II) AMDGPU(0): Printing probed modes for output HDMI-A-0
+[485115.739] (II) AMDGPU(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[485115.739] (II) AMDGPU(0): Modeline "1920x1080"x75.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1920x1080"x50.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1400x1050"x59.9  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1440x900"x59.9   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1280x720"x50.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "720x576"x50.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[485115.739] (II) AMDGPU(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[485115.739] (II) AMDGPU(0): EDID for output DVI-D-0
+[485115.739] (II) AMDGPU(0): Output DisplayPort-0 disconnected
+[485115.739] (II) AMDGPU(0): Output DisplayPort-1 disconnected
+[485115.739] (II) AMDGPU(0): Output DisplayPort-2 disconnected
+[485115.739] (II) AMDGPU(0): Output HDMI-A-0 connected
+[485115.739] (II) AMDGPU(0): Output DVI-D-0 disconnected
+[485115.739] (II) AMDGPU(0): Using exact sizes for initial modes
+[485115.739] (II) AMDGPU(0): Output HDMI-A-0 using initial mode 1920x1080 +0+0
+[485115.739] (II) AMDGPU(0): mem size init: gart size :1ff86b000 vram size: s:1fe1d7000 visible:fac0000
+[485115.739] (==) AMDGPU(0): DPI set to (96, 96)
+[485115.739] (==) AMDGPU(0): Using gamma correction (1.0, 1.0, 1.0)
+[485115.739] (II) Loading sub module "ramdac"
+[485115.739] (II) LoadModule: "ramdac"
+[485115.739] (II) Module "ramdac" already built-in
+[485115.739] (II) UnloadModule: "modesetting"
+[485115.739] (II) Unloading modesetting
+[485115.740] (II) UnloadModule: "fbdev"
+[485115.740] (II) Unloading fbdev
+[485115.740] (II) UnloadSubModule: "fbdevhw"
+[485115.740] (II) Unloading fbdevhw
+[485115.740] (II) UnloadModule: "vesa"
+[485115.740] (II) Unloading vesa
+[485115.740] (II) AMDGPU(0): [DRI2] Setup complete
+[485115.740] (II) AMDGPU(0): [DRI2]   DRI driver: radeonsi
+[485115.740] (II) AMDGPU(0): [DRI2]   VDPAU driver: radeonsi
+[485115.740] (II) AMDGPU(0): Front buffer pitch: 8192 bytes
+[485115.740] (II) AMDGPU(0): SYNC extension fences enabled
+[485115.740] (II) AMDGPU(0): Present extension enabled
+[485115.740] (==) AMDGPU(0): DRI3 enabled
+[485115.740] (==) AMDGPU(0): Backing store enabled
+[485115.740] (II) AMDGPU(0): Direct rendering enabled
+[485115.749] (II) AMDGPU(0): Use GLAMOR acceleration.
+[485115.749] (II) AMDGPU(0): Acceleration enabled
+[485115.749] (==) AMDGPU(0): DPMS enabled
+[485115.749] (==) AMDGPU(0): Silken mouse enabled
+[485115.749] (II) AMDGPU(0): Set up textured video (glamor)
+[485115.754] (II) Initializing extension Generic Event Extension
+[485115.754] (II) Initializing extension SHAPE
+[485115.754] (II) Initializing extension MIT-SHM
+[485115.754] (II) Initializing extension XInputExtension
+[485115.754] (II) Initializing extension XTEST
+[485115.755] (II) Initializing extension BIG-REQUESTS
+[485115.755] (II) Initializing extension SYNC
+[485115.755] (II) Initializing extension XKEYBOARD
+[485115.755] (II) Initializing extension XC-MISC
+[485115.755] (II) Initializing extension SECURITY
+[485115.755] (II) Initializing extension XFIXES
+[485115.755] (II) Initializing extension RENDER
+[485115.755] (II) Initializing extension RANDR
+[485115.755] (II) Initializing extension COMPOSITE
+[485115.755] (II) Initializing extension DAMAGE
+[485115.755] (II) Initializing extension MIT-SCREEN-SAVER
+[485115.755] (II) Initializing extension DOUBLE-BUFFER
+[485115.755] (II) Initializing extension RECORD
+[485115.755] (II) Initializing extension DPMS
+[485115.755] (II) Initializing extension Present
+[485115.756] (II) Initializing extension DRI3
+[485115.756] (II) Initializing extension X-Resource
+[485115.756] (II) Initializing extension XVideo
+[485115.756] (II) Initializing extension XVideo-MotionCompensation
+[485115.756] (II) Initializing extension SELinux
+[485115.756] (II) SELinux: Disabled on system
+[485115.756] (II) Initializing extension GLX
+[485115.760] (II) AIGLX: Loaded and initialized radeonsi
+[485115.760] (II) GLX: Initialized DRI2 GL provider for screen 0
+[485115.760] (II) Initializing extension XFree86-VidModeExtension
+[485115.760] (II) Initializing extension XFree86-DGA
+[485115.760] (II) Initializing extension XFree86-DRI
+[485115.760] (II) Initializing extension DRI2
+[485115.760] (II) AMDGPU(0): Setting screen physical size to 508 x 285
+[485115.824] (II) config/udev: Adding input device Power Button (/dev/input/event1)
+[485115.824] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[485115.824] (II) LoadModule: "libinput"
+[485115.824] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[485115.825] (II) Module libinput: vendor="X.Org Foundation"
+[485115.825] 	compiled for 1.20.4, module version = 0.29.0
+[485115.825] 	Module class: X.Org XInput Driver
+[485115.825] 	ABI class: X.Org XInput driver, version 24.1
+[485115.825] (II) Using input driver 'libinput' for 'Power Button'
+[485115.826] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 27 paused 0
+[485115.826] (**) Power Button: always reports core events
+[485115.826] (**) Option "Device" "/dev/input/event1"
+[485115.826] (**) Option "_source" "server/udev"
+[485115.828] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[485115.828] (II) event1  - Power Button: device is a keyboard
+[485115.828] (II) event1  - Power Button: device removed
+[485115.828] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input1/event1"
+[485115.828] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[485115.828] (**) Option "xkb_model" "pc105"
+[485115.828] (**) Option "xkb_layout" "us"
+[485115.829] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[485115.829] (II) event1  - Power Button: device is a keyboard
+[485115.829] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[485115.829] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[485115.829] (II) Using input driver 'libinput' for 'Power Button'
+[485115.830] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 30 paused 0
+[485115.830] (**) Power Button: always reports core events
+[485115.830] (**) Option "Device" "/dev/input/event0"
+[485115.830] (**) Option "_source" "server/udev"
+[485115.830] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[485115.830] (II) event0  - Power Button: device is a keyboard
+[485115.830] (II) event0  - Power Button: device removed
+[485115.830] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0"
+[485115.830] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[485115.830] (**) Option "xkb_model" "pc105"
+[485115.830] (**) Option "xkb_layout" "us"
+[485115.831] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[485115.831] (II) event0  - Power Button: device is a keyboard
+[485115.832] (II) config/udev: Adding input device Dell Dell QuietKey Keyboard (/dev/input/event3)
+[485115.832] (**) Dell Dell QuietKey Keyboard: Applying InputClass "libinput keyboard catchall"
+[485115.832] (II) Using input driver 'libinput' for 'Dell Dell QuietKey Keyboard'
+[485115.833] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 31 paused 0
+[485115.833] (**) Dell Dell QuietKey Keyboard: always reports core events
+[485115.833] (**) Option "Device" "/dev/input/event3"
+[485115.833] (**) Option "_source" "server/udev"
+[485115.834] (II) event3  - Dell Dell QuietKey Keyboard: is tagged by udev as: Keyboard
+[485115.834] (II) event3  - Dell Dell QuietKey Keyboard: device is a keyboard
+[485115.834] (II) event3  - Dell Dell QuietKey Keyboard: device removed
+[485115.834] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:01.2/0000:02:00.0/0000:03:08.0/0000:06:00.1/usb1/1-1/1-1:1.0/0003:413C:2106.0002/input/input3/event3"
+[485115.834] (II) XINPUT: Adding extended input device "Dell Dell QuietKey Keyboard" (type: KEYBOARD, id 8)
+[485115.834] (**) Option "xkb_model" "pc105"
+[485115.834] (**) Option "xkb_layout" "us"
+[485115.836] (II) event3  - Dell Dell QuietKey Keyboard: is tagged by udev as: Keyboard
+[485115.836] (II) event3  - Dell Dell QuietKey Keyboard: device is a keyboard
+[485115.837] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=3 (/dev/input/event4)
+[485115.837] (II) No input driver specified, ignoring this device.
+[485115.837] (II) This device may have been added with another device file.
+[485115.837] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=7 (/dev/input/event5)
+[485115.837] (II) No input driver specified, ignoring this device.
+[485115.837] (II) This device may have been added with another device file.
+[485115.837] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=8 (/dev/input/event7)
+[485115.837] (II) No input driver specified, ignoring this device.
+[485115.837] (II) This device may have been added with another device file.
+[485115.838] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=9 (/dev/input/event8)
+[485115.838] (II) No input driver specified, ignoring this device.
+[485115.838] (II) This device may have been added with another device file.
+[485115.838] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=10 (/dev/input/event11)
+[485115.838] (II) No input driver specified, ignoring this device.
+[485115.838] (II) This device may have been added with another device file.
+[485115.838] (II) config/udev: Adding input device HDA ATI HDMI HDMI/DP,pcm=11 (/dev/input/event12)
+[485115.838] (II) No input driver specified, ignoring this device.
+[485115.838] (II) This device may have been added with another device file.
+[485115.839] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/event2)
+[485115.839] (**) Logitech USB Optical Mouse: Applying InputClass "libinput pointer catchall"
+[485115.839] (II) Using input driver 'libinput' for 'Logitech USB Optical Mouse'
+[485115.839] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 32 paused 0
+[485115.839] (**) Logitech USB Optical Mouse: always reports core events
+[485115.839] (**) Option "Device" "/dev/input/event2"
+[485115.839] (**) Option "_source" "server/udev"
+[485115.841] (II) event2  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[485115.841] (II) event2  - Logitech USB Optical Mouse: device is a pointer
+[485115.841] (II) event2  - Logitech USB Optical Mouse: device removed
+[485115.841] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:08.1/0000:0b:00.3/usb5/5-4/5-4:1.0/0003:046D:C018.0001/input/input2/event2"
+[485115.841] (II) XINPUT: Adding extended input device "Logitech USB Optical Mouse" (type: MOUSE, id 9)
+[485115.841] (**) Option "AccelerationScheme" "none"
+[485115.841] (**) Logitech USB Optical Mouse: (accel) selected scheme none/0
+[485115.841] (**) Logitech USB Optical Mouse: (accel) acceleration factor: 2.000
+[485115.841] (**) Logitech USB Optical Mouse: (accel) acceleration threshold: 4
+[485115.842] (II) event2  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[485115.842] (II) event2  - Logitech USB Optical Mouse: device is a pointer
+[485115.843] (II) config/udev: Adding input device Logitech USB Optical Mouse (/dev/input/mouse0)
+[485115.843] (II) No input driver specified, ignoring this device.
+[485115.843] (II) This device may have been added with another device file.
+[485115.843] (II) config/udev: Adding input device HD-Audio Generic Front Mic (/dev/input/event6)
+[485115.843] (II) No input driver specified, ignoring this device.
+[485115.843] (II) This device may have been added with another device file.
+[485115.844] (II) config/udev: Adding input device HD-Audio Generic Rear Mic (/dev/input/event9)
+[485115.844] (II) No input driver specified, ignoring this device.
+[485115.844] (II) This device may have been added with another device file.
+[485115.844] (II) config/udev: Adding input device HD-Audio Generic Line (/dev/input/event10)
+[485115.844] (II) No input driver specified, ignoring this device.
+[485115.844] (II) This device may have been added with another device file.
+[485115.844] (II) config/udev: Adding input device HD-Audio Generic Line Out (/dev/input/event13)
+[485115.844] (II) No input driver specified, ignoring this device.
+[485115.844] (II) This device may have been added with another device file.
+[485115.845] (II) config/udev: Adding input device HD-Audio Generic Front Headphone (/dev/input/event14)
+[485115.845] (II) No input driver specified, ignoring this device.
+[485115.845] (II) This device may have been added with another device file.
+[485116.332] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[485116.332] (II) AMDGPU(0): Using EDID range info for horizontal sync
+[485116.332] (II) AMDGPU(0): Using EDID range info for vertical refresh
+[485116.332] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[485116.332] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[485116.332] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[485116.332] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[485116.333] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[485117.246] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[485117.246] (II) AMDGPU(0): Using hsync ranges from config file
+[485117.246] (II) AMDGPU(0): Using vrefresh ranges from config file
+[485117.246] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[485117.246] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[485117.246] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[485117.246] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[494048.319] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[494049.204] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[494049.204] (II) AMDGPU(0): Using hsync ranges from config file
+[494049.204] (II) AMDGPU(0): Using vrefresh ranges from config file
+[494049.204] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[494049.204] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[494049.204] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[494049.204] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[494049.245] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[494049.245] (II) AMDGPU(0): Using hsync ranges from config file
+[494049.245] (II) AMDGPU(0): Using vrefresh ranges from config file
+[494049.245] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[494049.245] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[494049.245] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[494049.245] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[497254.636] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[497255.528] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[497255.528] (II) AMDGPU(0): Using hsync ranges from config file
+[497255.528] (II) AMDGPU(0): Using vrefresh ranges from config file
+[497255.528] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[497255.528] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[497255.528] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[497255.528] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[497255.570] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[497255.570] (II) AMDGPU(0): Using hsync ranges from config file
+[497255.570] (II) AMDGPU(0): Using vrefresh ranges from config file
+[497255.570] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[497255.570] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[497255.570] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[497255.570] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[497255.571] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[497255.571] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[497617.196] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[497618.089] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[497618.089] (II) AMDGPU(0): Using hsync ranges from config file
+[497618.089] (II) AMDGPU(0): Using vrefresh ranges from config file
+[497618.089] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[497618.089] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[497618.089] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[497618.089] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[497618.089] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[497618.089] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[497618.089] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[497618.089] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[497618.089] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[497618.090] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[497618.133] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[497618.133] (II) AMDGPU(0): Using hsync ranges from config file
+[497618.133] (II) AMDGPU(0): Using vrefresh ranges from config file
+[497618.133] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[497618.133] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[497618.133] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[497618.133] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[504828.495] (**) Option "fd" "27"
+[504828.495] (II) event1  - Power Button: device removed
+[504828.495] (**) Option "fd" "30"
+[504828.495] (II) event0  - Power Button: device removed
+[504828.496] (**) Option "fd" "31"
+[504828.496] (II) event3  - Dell Dell QuietKey Keyboard: device removed
+[504828.496] (**) Option "fd" "32"
+[504828.496] (II) event2  - Logitech USB Optical Mouse: device removed
+[504828.496] (II) AIGLX: Suspending AIGLX clients for VT switch
+[504828.560] (II) systemd-logind: got pause for 13:64
+[504828.560] (II) systemd-logind: got pause for 13:67
+[504828.560] (II) systemd-logind: got pause for 13:65
+[504828.560] (II) systemd-logind: got pause for 13:66
+[504828.560] (II) systemd-logind: got pause for 226:0
+[504891.168] (II) systemd-logind: got resume for 13:64
+[504891.196] (II) systemd-logind: got resume for 13:67
+[504891.224] (II) systemd-logind: got resume for 13:65
+[504891.244] (II) systemd-logind: got resume for 13:66
+[504891.244] (II) systemd-logind: got resume for 226:0
+[504891.244] (II) AIGLX: Resuming AIGLX clients after VT switch
+[504891.268] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[504891.268] (II) AMDGPU(0): Using hsync ranges from config file
+[504891.268] (II) AMDGPU(0): Using vrefresh ranges from config file
+[504891.268] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[504891.268] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[504891.268] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[504891.268] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[504891.269] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[504891.285] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[504891.285] (II) event1  - Power Button: device is a keyboard
+[504891.287] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[504891.287] (II) event0  - Power Button: device is a keyboard
+[504891.289] (II) event3  - Dell Dell QuietKey Keyboard: is tagged by udev as: Keyboard
+[504891.289] (II) event3  - Dell Dell QuietKey Keyboard: device is a keyboard
+[504891.291] (II) event2  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[504891.291] (II) event2  - Logitech USB Optical Mouse: device is a pointer
+[507161.124] (**) Option "fd" "32"
+[507161.124] (II) event1  - Power Button: device removed
+[507161.124] (**) Option "fd" "30"
+[507161.124] (II) event0  - Power Button: device removed
+[507161.125] (**) Option "fd" "31"
+[507161.125] (II) event3  - Dell Dell QuietKey Keyboard: device removed
+[507161.125] (**) Option "fd" "61"
+[507161.125] (II) event2  - Logitech USB Optical Mouse: device removed
+[507161.125] (II) AIGLX: Suspending AIGLX clients for VT switch
+[507161.174] (II) systemd-logind: got pause for 13:64
+[507161.174] (II) systemd-logind: got pause for 13:67
+[507161.174] (II) systemd-logind: got pause for 13:65
+[507161.174] (II) systemd-logind: got pause for 13:66
+[507161.174] (II) systemd-logind: got pause for 226:0
+[600446.116] (II) systemd-logind: got resume for 13:64
+[600446.152] (II) systemd-logind: got resume for 13:67
+[600446.188] (II) systemd-logind: got resume for 13:65
+[600446.208] (II) systemd-logind: got resume for 13:66
+[600446.208] (II) systemd-logind: got resume for 226:0
+[600446.208] (II) AIGLX: Resuming AIGLX clients after VT switch
+[600446.236] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[600446.236] (II) AMDGPU(0): Using hsync ranges from config file
+[600446.236] (II) AMDGPU(0): Using vrefresh ranges from config file
+[600446.236] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[600446.236] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[600446.236] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[600446.236] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[600446.253] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[600446.253] (II) event1  - Power Button: device is a keyboard
+[600446.254] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[600446.254] (II) event0  - Power Button: device is a keyboard
+[600446.257] (II) event3  - Dell Dell QuietKey Keyboard: is tagged by udev as: Keyboard
+[600446.257] (II) event3  - Dell Dell QuietKey Keyboard: device is a keyboard
+[600446.259] (II) event2  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[600446.259] (II) event2  - Logitech USB Optical Mouse: device is a pointer
+[600446.264] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[600446.264] (II) AMDGPU(0): Using hsync ranges from config file
+[600446.264] (II) AMDGPU(0): Using vrefresh ranges from config file
+[600446.264] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[600446.264] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[600446.264] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[600446.264] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[603123.382] (**) Option "fd" "61"
+[603123.382] (II) event1  - Power Button: device removed
+[603123.382] (**) Option "fd" "31"
+[603123.382] (II) event0  - Power Button: device removed
+[603123.383] (**) Option "fd" "32"
+[603123.383] (II) event3  - Dell Dell QuietKey Keyboard: device removed
+[603123.383] (**) Option "fd" "65"
+[603123.383] (II) event2  - Logitech USB Optical Mouse: device removed
+[603123.383] (II) AIGLX: Suspending AIGLX clients for VT switch
+[603123.433] (II) systemd-logind: got pause for 13:64
+[603123.433] (II) systemd-logind: got pause for 13:67
+[603123.433] (II) systemd-logind: got pause for 13:65
+[603123.433] (II) systemd-logind: got pause for 13:66
+[603123.434] (II) systemd-logind: got pause for 226:0
+[657181.437] (II) systemd-logind: got resume for 13:64
+[657181.456] (II) systemd-logind: got resume for 13:67
+[657181.480] (II) systemd-logind: got resume for 13:65
+[657181.496] (II) systemd-logind: got resume for 13:66
+[657181.496] (II) systemd-logind: got resume for 226:0
+[657181.496] (II) AIGLX: Resuming AIGLX clients after VT switch
+[657181.521] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[657181.521] (II) AMDGPU(0): Using hsync ranges from config file
+[657181.521] (II) AMDGPU(0): Using vrefresh ranges from config file
+[657181.521] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[657181.521] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[657181.521] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[657181.521] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[657181.538] (II) event1  - Power Button: is tagged by udev as: Keyboard
+[657181.538] (II) event1  - Power Button: device is a keyboard
+[657181.539] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[657181.539] (II) event0  - Power Button: device is a keyboard
+[657181.542] (II) event3  - Dell Dell QuietKey Keyboard: is tagged by udev as: Keyboard
+[657181.542] (II) event3  - Dell Dell QuietKey Keyboard: device is a keyboard
+[657181.544] (II) event2  - Logitech USB Optical Mouse: is tagged by udev as: Mouse
+[657181.544] (II) event2  - Logitech USB Optical Mouse: device is a pointer
+[657181.547] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[657181.547] (II) AMDGPU(0): Using hsync ranges from config file
+[657181.547] (II) AMDGPU(0): Using vrefresh ranges from config file
+[657181.547] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[657181.547] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[657181.547] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[657181.547] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[657181.547] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[657181.547] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[657181.547] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[657181.547] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[657181.548] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[660916.913] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[660917.793] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[660917.793] (II) AMDGPU(0): Using hsync ranges from config file
+[660917.793] (II) AMDGPU(0): Using vrefresh ranges from config file
+[660917.793] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[660917.793] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[660917.793] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[660917.794] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[660917.838] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[660917.838] (II) AMDGPU(0): Using hsync ranges from config file
+[660917.838] (II) AMDGPU(0): Using vrefresh ranges from config file
+[660917.838] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[660917.838] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[660917.838] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[660917.838] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[661282.800] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[661283.684] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[661283.684] (II) AMDGPU(0): Using hsync ranges from config file
+[661283.684] (II) AMDGPU(0): Using vrefresh ranges from config file
+[661283.684] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[661283.684] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[661283.684] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[661283.684] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[661283.685] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[661283.685] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[661283.685] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[661283.685] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[661283.685] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[661283.726] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[661283.726] (II) AMDGPU(0): Using hsync ranges from config file
+[661283.726] (II) AMDGPU(0): Using vrefresh ranges from config file
+[661283.726] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[661283.726] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[661283.726] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[661283.726] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[661542.796] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[661543.696] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[661543.696] (II) AMDGPU(0): Using hsync ranges from config file
+[661543.696] (II) AMDGPU(0): Using vrefresh ranges from config file
+[661543.696] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[661543.696] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[661543.696] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[661543.696] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[661543.739] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[661543.739] (II) AMDGPU(0): Using hsync ranges from config file
+[661543.739] (II) AMDGPU(0): Using vrefresh ranges from config file
+[661543.739] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[661543.739] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[661543.739] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[661543.739] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[662787.681] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[662788.561] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[662788.561] (II) AMDGPU(0): Using hsync ranges from config file
+[662788.561] (II) AMDGPU(0): Using vrefresh ranges from config file
+[662788.561] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[662788.561] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[662788.561] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[662788.561] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[662788.606] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[662788.606] (II) AMDGPU(0): Using hsync ranges from config file
+[662788.606] (II) AMDGPU(0): Using vrefresh ranges from config file
+[662788.606] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[662788.606] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[662788.606] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[662788.606] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[662788.607] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[665631.265] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[665632.152] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[665632.152] (II) AMDGPU(0): Using hsync ranges from config file
+[665632.152] (II) AMDGPU(0): Using vrefresh ranges from config file
+[665632.152] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[665632.152] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[665632.152] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[665632.152] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[665632.194] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[665632.194] (II) AMDGPU(0): Using hsync ranges from config file
+[665632.194] (II) AMDGPU(0): Using vrefresh ranges from config file
+[665632.194] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[665632.194] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[665632.194] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[665632.194] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[666573.854] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[666574.747] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[666574.747] (II) AMDGPU(0): Using hsync ranges from config file
+[666574.747] (II) AMDGPU(0): Using vrefresh ranges from config file
+[666574.747] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[666574.747] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[666574.747] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[666574.747] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[666574.788] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[666574.788] (II) AMDGPU(0): Using hsync ranges from config file
+[666574.788] (II) AMDGPU(0): Using vrefresh ranges from config file
+[666574.788] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[666574.788] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[666574.788] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[666574.788] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[680042.540] (EE) AMDGPU(0): drmmode_do_crtc_dpms cannot get last vblank counter
+[680043.434] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[680043.434] (II) AMDGPU(0): Using hsync ranges from config file
+[680043.434] (II) AMDGPU(0): Using vrefresh ranges from config file
+[680043.434] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[680043.434] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[680043.434] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[680043.434] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[680043.480] (II) AMDGPU(0): EDID vendor "GSM", prod id 23381
+[680043.480] (II) AMDGPU(0): Using hsync ranges from config file
+[680043.480] (II) AMDGPU(0): Using vrefresh ranges from config file
+[680043.480] (II) AMDGPU(0): Printing DDC gathered Modelines:
+[680043.480] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz eP)
+[680043.480] (II) AMDGPU(0): Modeline "1920x1080"x0.0  174.50  1920 1968 2000 2080  1080 1083 1088 1119 +hsync +vsync (83.9 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "720x576"x0.0   27.00  720 732 796 864  576 581 586 625 -hsync -vsync (31.2 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1920x1080"x0.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1280x720"x0.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1440x900"x0.0   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1680x1050"x0.0  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1600x900"x60.0  119.00  1600 1696 1864 2128  900 901 904 932 -hsync +vsync (55.9 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[680043.480] (II) AMDGPU(0): Modeline "1400x1050"x0.0  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[683187.810] (**) Option "fd" "55"
+[683187.810] (II) event1  - Power Button: device removed
+[683187.810] (**) Option "fd" "32"
+[683187.810] (II) event0  - Power Button: device removed
+[683187.810] (**) Option "fd" "46"
+[683187.810] (II) event3  - Dell Dell QuietKey Keyboard: device removed
+[683187.810] (**) Option "fd" "58"
+[683187.810] (II) event2  - Logitech USB Optical Mouse: device removed
+[683187.811] (II) UnloadModule: "libinput"
+[683187.811] (II) systemd-logind: releasing fd for 13:66
+[683187.912] (II) UnloadModule: "libinput"
+[683187.912] (II) systemd-logind: releasing fd for 13:67
+[683187.936] (II) UnloadModule: "libinput"
+[683187.936] (II) systemd-logind: releasing fd for 13:64
+[683187.972] (II) UnloadModule: "libinput"
+[683187.972] (II) systemd-logind: releasing fd for 13:65
+[683188.025] (II) Server terminated successfully (0). Closing log file.

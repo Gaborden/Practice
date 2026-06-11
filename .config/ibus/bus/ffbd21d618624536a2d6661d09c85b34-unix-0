@@ -1,0 +1,7 @@
+# This file is created by ibus-daemon, please do not modify it.
+# This file allows processes on the machine to find the
+# ibus session bus with the below address.
+# If the IBUS_ADDRESS environment variable is set, it will
+# be used rather than this file.
+IBUS_ADDRESS=unix:abstract=/home/genevieve/.cache/ibus/dbus-XKCTbAO2,guid=7436b76e2877fd935964f487683d84a3
+IBUS_DAEMON_PID=3524460
